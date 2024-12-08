@@ -1,8 +1,8 @@
-use anchor_lang::predule::*;
+use anchor_lang::prelude::*;
 
 #[account]
 pub struct UserAccount{
-    pub point: u32,
+    pub points: u32,
     pub amount_staked: u8,
     pub bump:u8,
 }
